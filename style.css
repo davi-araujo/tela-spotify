@@ -1,0 +1,256 @@
+body {
+    font-family: 'Readex Pro', sans-serif;
+}
+
+header {
+    background: #000000;
+}
+
+.espacamento-lateral {
+    width: 62.5%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo {
+    padding: 19px;
+    width: 130px;
+    cursor: pointer;
+}
+
+nav {
+    position: absolute;
+    top: 33px;
+    right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav a:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav a:hover {
+    color: #1ed760;
+}
+
+nav li {
+    color: #FFFFFF;
+    display: inline;
+    font-size: 14px;
+    margin-right: 34px;
+}
+
+.primeira-parte {
+    background: rgb(150, 240, 182);
+    padding-bottom: 100px;
+}
+
+.primeira-parte .espacamento-lateral{
+    width: 62.5%;
+    margin: 0 auto;
+}
+
+.piano {
+    width: 33%;
+    float: right;
+    margin-top: 150px;
+    margin-right: 30px;
+}
+
+h1 {
+    font-size: 14px;
+    padding-top: 90px;
+}
+
+.primeira-parte p, h1, .botao-primeira {
+    color: #202f72;
+    margin-left: 25px;
+}
+
+.destaque {
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.descricao {
+    font-size: 25px;
+    padding-top: 50px;
+    padding-bottom: 55px;
+}
+
+.botao-primeira {
+    display: inline-block;
+    background: #202f72;
+    color: rgb(150, 240, 182);
+    padding: 15px 30px;
+    font-size: 14px;
+    border-radius: 30px;
+}
+
+.botao-primeira:hover {
+    transform: scale(1.05);
+    background: rgb(26,39,94);
+}
+
+.botao-primeira:active {
+    transform: scale(1);
+    background: rgb(26,39,94);
+}
+
+.condicao {
+    font-size: 12px;
+    padding-top: 60px;
+}
+
+em {
+    text-decoration: underline;
+}
+
+.segunda-parte {    
+    background: #F46EBE;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.segunda-parte .espacamento-lateral {
+    width: 62.5%;
+    margin: 0 auto;
+}
+
+.segunda-parte p, h1, .segunda-parte a {
+    color: #202f72;
+    margin-left: 25px;
+    width: 50%;
+}
+
+.lojas-aplicativos {
+    margin-left: 25px;
+}
+
+.lojas-aplicativos li {
+    display: inline;
+}
+
+.app-store {
+    width: 10%;
+    vertical-align: middle;
+}
+
+.google-play {
+    width: 12.5%;
+    vertical-align: middle;
+}
+
+.ouca-destaque {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.cobrinha {
+    width: 54%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.terceira-parte {    
+    background: rgb(41, 65, 171);
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.terceira-parte .espacamento-lateral {
+    width: 62.5%;
+    margin: 0 auto;
+}
+
+.terceira-parte p, .terceira-parte h1 {
+    color: #1ed760;
+    margin-left: 25px;
+    width: 50%;
+}
+
+.bolinhas {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 64%;
+}
+
+.botao-terceira {
+    display: inline-block;
+    background: #1ed760;
+    color: rgb(41, 65, 171);
+    padding: 15px 30px;
+    font-size: 14px;
+    border-radius: 30px;
+    margin-left: 25px;
+}
+
+.botao-terceira:hover {
+    transform: scale(1.05);
+    background: rgb(45,226,109);
+}
+
+.botao-terceira:active {
+    transform: scale(1);
+    background: rgb(45,226,109);
+}
+
+footer {
+    background: #000000;
+    color: #FFFFFF;
+    padding: 40px 0;
+}
+
+.espacamento-lateral {
+    position: relative;
+}
+
+.redes-sociais {
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.redes-sociais li {
+    display: inline;
+    margin-left: 15px;
+}
+
+.instagram, .twitter, .facebook {
+    background: #000000;
+    width: 35px;
+}
+
+.direitos {
+    text-align: right;
+    font-size: 12px;
+}
+
+.direitos p {
+    padding: 6px;
+    color: #666666;
+}
+
+.pais{
+    display: inline-block;
+}
+
+.pais:hover {
+    color: #1ed760;
+    cursor: pointer;
+}
+
+.terra {
+    background: #666666;
+    border-radius: 100%;
+    width: 12px;
+    display: inline-block;
+}

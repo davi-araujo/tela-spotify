@@ -1,0 +1,175 @@
+body {
+    font-family: 'Readex Pro', sans-serif;
+}
+
+header {
+    background: #000000;
+}
+
+.espacamento-lateral {
+    width: 62.5%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo {
+    padding: 19px;
+    width: 130px;
+    cursor: pointer;
+}
+
+nav {
+    position: absolute;
+    top: 33px;
+    right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav a:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav a:hover {
+    color: #1ed760;
+}
+
+nav li {
+    display: inline;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-right: 34px;
+}
+
+.primeira-parte {
+    background: rgb(25, 230, 140);
+    text-align: center;
+    padding: 100px;
+}
+
+.laptop {
+    margin: 0 auto;
+}
+
+h1 {
+    color: #000000;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 40px;
+}
+
+p {
+    margin-bottom: 50px;
+}
+
+.botao {
+    display: inline-block;
+    font-size: 14px;
+    background: #FFFFFF;
+    color: #000000;
+    padding: 15px;
+    border-radius: 40px;
+    width: 80px;
+}
+
+.botao:hover {
+    transform: scale(1.1);
+}
+
+.botao:active {
+    transform: scale(1);
+}
+
+.segunda-parte {
+    padding: 30px;
+    text-align: center;
+}
+
+.segunda-parte h1, .terceira-parte h1 {
+    font-size: 30px;
+}
+
+.aplicativos, .app-store {
+    display: inline;
+    width: 6%;
+    vertical-align: middle;
+    margin: 0 15px;
+}
+
+.app-store {
+    width: 7%;
+}
+
+.terceira-parte {
+    padding: 70px;
+    text-align: center;
+    background: rgb(34, 35, 38);
+}
+
+.dispositivos {
+    width: 30%;
+}
+
+.terceira-parte h1, .terceira-parte p {
+    color: #FFFFFF;
+}
+
+em {
+    color: rgb(29, 185, 84);
+}
+
+footer {
+    background: #000000;
+    color: #FFFFFF;
+    padding: 40px 0;
+}
+
+.espacamento-lateral {
+    position: relative;
+}
+
+.redes-sociais {
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.redes-sociais li {
+    display: inline;
+    margin-left: 15px;
+}
+
+.instagram, .twitter, .facebook {
+    background: #000000;
+    width: 35px;
+}
+
+.direitos {
+    text-align: right;
+    font-size: 12px;
+}
+
+.direitos p {
+    padding: 6px;
+    color: #666666;
+}
+
+.pais{
+    display: inline-block;
+}
+
+.pais:hover {
+    color: #1ed760;
+    cursor: pointer;
+}
+
+.terra {
+    background: #666666;
+    border-radius: 100%;
+    width: 12px;
+    display: inline-block;
+}
